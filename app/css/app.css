@@ -1,9 +1,10 @@
 * {
-    box-sizing: border-box;
     margin: 0;
 }
+html{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -14,7 +15,9 @@ a {
     text-decoration: none;
     color: #0A9AF0;
 }
-
+p {
+    margin-top: 5px;
+}
 @media (min-width: 992px){
     .container {
         width: 970px;
@@ -22,7 +25,7 @@ a {
 }
 @media (min-width: 768px){
     .container {
-        width: 750px;
+        width: 700px;
     }
 }
 
@@ -31,6 +34,7 @@ a {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    max-width: 700px;
 }
 .column-3 {
     float: left;
@@ -59,14 +63,24 @@ a {
     padding-right: 15px;
     display: block;
 }
+
+.pull-right {
+    float: right!important;
+}
+
 .header {
-    background-color: #1a1a1a;
-    color: #CCCCCC;
+    color: #777;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 5px;
+}
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
 }
 
 .navbar {
     list-style: none;
-    height: 100%;
 }
 .brand {
     padding-top: 2px;
@@ -76,16 +90,52 @@ a {
     float: left;
     padding: 5px;
     font-size: 13px;
+    margin-left: 2px;
+    margin-top: 2px;
+    border-radius: 3px;
 }
 .navbar .nav-item:hover {
-    background: rgba(255,255,255,0.2);
+    text-decoration: none;
+    background-color: #eee;
 }
 
 .footer {
-    background-color: #1a1a1a;
+    margin-top: 20px;
+    border-top: 1px solid #e5e5e5;
     color: #CCCCCC;
 }
 .footer p {
     font-size: 8px;
     padding: 3px;
+}
+
+.presentation {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #eee;
+    padding: 38px 48px;
+    text-align: center;
+}
+.btn {
+    padding: 7px 7px;
+    font-size: 14px;
+    line-height: 1.33;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.btn:hover {
+    /*background-color: #5cb85c;*/
+    background-color: rgba(91,200,92,0.9);
 }
