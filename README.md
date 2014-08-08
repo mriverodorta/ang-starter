@@ -65,3 +65,9 @@ bower install
 ├── README.md                           --> Application this file
 └── test                                --> Application Tests folder
 ```
+
+###Serving files
+To serve the application you just need the app directory for production.
+
+###Contact
+For any question ask me at mriverodorta@gmail.com, or open an issue, be free to fork or use this project for any application you need to develop.
