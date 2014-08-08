@@ -10,6 +10,10 @@ body {
     background-color: #fff;
     display: block;
 }
+a {
+    text-decoration: none;
+    color: #0A9AF0;
+}
 
 @media (min-width: 992px){
     .container {
@@ -77,10 +81,6 @@ body {
     background: rgba(255,255,255,0.2);
 }
 
-.nav-item a {
-    text-decoration: none;
-    color: #0A9AF0;
-}
 .footer {
     background-color: #1a1a1a;
     color: #CCCCCC;
