@@ -7,6 +7,7 @@ angular.module('AngStarter')
 
     /**
      * Configure your app security here
+     * The next example requires lodash or underscorejs
      */
     /*var securedRoutes = ['/login'];
     $rootScope.$on('$routeChangeStart', function(event, next, current){

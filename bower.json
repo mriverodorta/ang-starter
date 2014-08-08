@@ -24,7 +24,5 @@
   "dependencies": {
     "angular": "1.2.x",
     "angular-route": "1.2.x",
-    "bootstrap": "~3.2.0",
-    "lodash": "2.4.x"
   }
 }
