@@ -1,15 +1,30 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "name": "ang-starter",
+  "version": "1.0",
+  "authors": [
+    "Maikel Rivero Dorta <mriverodorta@gmail.com>"
+  ],
+  "description": "Angular start point for medium and large applications",
+  "keywords": [
+    "AngularJs",
+    "start",
+    "boilerplate",
+    "seed"
+  ],
   "license": "MIT",
-  "private": true,
+  "homepage": "https://github.com/mriverodorta/ang-starter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
     "angular": "1.2.x",
     "angular-route": "1.2.x",
-    "angular-loader": "1.2.x",
-    "angular-mocks": "~1.2.x",
-    "html5-boilerplate": "~4.3.0"
+    "bootstrap": "~3.2.0",
+    "lodash": "2.4.x"
   }
 }
