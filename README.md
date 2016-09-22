@@ -20,7 +20,7 @@ cd ang-starter
 ```
 
 ###Install Dependencies
-This project only depends on angular and angular-route packages to get them you can use bower
+This project only depends on lodash, angular and angular-route packages to get them you can use bower
 ```
 bower install
 ```
